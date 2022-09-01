@@ -1,0 +1,8 @@
+@import "reset.scss";
+
+$testColor: red;
+
+h1 {
+  font-size: 100px;
+  color: $testColor;
+}
