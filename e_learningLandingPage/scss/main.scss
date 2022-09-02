@@ -1,8 +1,33 @@
 @import "reset.scss";
-
-$testColor: red;
+@import "common.scss";
 
 h1 {
+  background: $linear-gra-main;
+  color: $primary;
   font-size: 100px;
-  color: $testColor;
+}
+h2 {
+  background: $linear-gra-sub;
+  color: $main-hover;
+  font-size: 100px;
+}
+h3 {
+  background: $linear-gra-sub;
+  color: $main;
+  font-size: 100px;
+}
+h4 {
+  background: $linear-gra-sub;
+  color: $pink;
+  font-size: 100px;
+}
+h5 {
+  background: $linear-gra-sub;
+  color: $pink-hover;
+  font-size: 100px;
+}
+h6 {
+  background: $linear-gra-sub;
+  color: $white;
+  font-size: 100px;
 }
