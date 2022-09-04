@@ -42,71 +42,70 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-* {
-  font-family: 'Plus Jakarta Sans', sans-serif !important; }
+@font-face {
+  font-family: 'icomoon';
+  src: url("/icomoon.592762f7.eot?gipj0f");
+  src: url("/icomoon.592762f7.eot?gipj0f#iefix") format("embedded-opentype"), url("/icomoon.31a6ec37.ttf?gipj0f") format("truetype"), url("/icomoon.4d39a651.woff?gipj0f") format("woff"), url("/icomoon.e5b6a6c2.svg?gipj0f#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
 
-h1 {
-  background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
-  font-size: 3.5rem;
-  font-weight: 700;
-  line-height: 1.26;
-  color: #13183F; }
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
-h2 {
-  background: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 1.26;
-  color: #13183F; }
+.icon-icon-animation .path1:before {
+  content: "\e900";
+  color: black; }
 
-h3 {
-  background: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
-  font-size: 1.125rem;
-  font-weight: 500;
-  line-height: 1.555;
-  color: #83869A; }
+.icon-icon-animation .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: white; }
 
-h4 {
-  background: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.75;
-  color: #83869A; }
+.icon-icon-business .path1:before {
+  content: "\e902";
+  color: black; }
 
-h5 {
-  background: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
-  color: #FFA7C3;
-  font-size: 100px; }
+.icon-icon-business .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: white; }
 
-h6 {
-  background: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
-  color: #ffffff;
-  font-size: 100px;
-  font-size: 1.5rem; }
+.icon-icon-crypto .path1:before {
+  content: "\e904";
+  color: black; }
 
-.btn1 {
-  font-size: 1.125rem;
-  line-height: 1.555;
-  border: none;
-  outline: none;
-  color: #ffffff;
-  padding: 0.875rem 1.93rem;
-  border-radius: 28px;
-  background: #13183F; }
-  .btn1:hover {
-    background: #666CA3; }
+.icon-icon-crypto .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: white; }
 
-.btn2 {
-  font-size: 1.125rem;
-  line-height: 1.555;
-  border: none;
-  outline: none;
-  color: #ffffff;
-  padding: 1.125rem 1.93rem;
-  border-radius: 31.5px;
-  background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%); }
-  .btn2:hover {
-    opacity: .5; }
+.icon-icon-design .path1:before {
+  content: "\e906";
+  color: black; }
+
+.icon-icon-design .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: white; }
+
+.icon-icon-photography .path1:before {
+  content: "\e908";
+  color: black; }
+
+.icon-icon-photography .path2:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: white; }
 
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

@@ -1,6 +1,7 @@
 // font
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
 @mixin headingXL($color: $main) {
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 1.26;
@@ -8,6 +9,7 @@
 }
 
 @mixin headingL($color: $main) {
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.26;
@@ -15,6 +17,7 @@
 }
 
 @mixin headingM($color: $main) {
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.26;
@@ -22,6 +25,7 @@
 }
 
 @mixin headingS($color: $main) {
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.26;
@@ -29,6 +33,7 @@
 }
 
 @mixin bodyM($color: $primary) {
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.555;
@@ -36,6 +41,7 @@
 }
 
 @mixin bodyS($color: $primary) {
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.75;
