@@ -1,25 +1,25 @@
 @import "reset.scss";
 @import "common.scss";
 
+* {
+	font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
 h1 {
   background: $linear-gra-main;
-  color: $primary;
-  font-size: 100px;
+  @include headingXL;
 }
 h2 {
   background: $linear-gra-sub;
-  color: $main-hover;
-  font-size: 100px;
+  @include headingL;
 }
 h3 {
   background: $linear-gra-sub;
-  color: $main;
-  font-size: 100px;
+  @include bodyM;
 }
 h4 {
   background: $linear-gra-sub;
-  color: $pink;
-  font-size: 100px;
+  @include bodyS;
 }
 h5 {
   background: $linear-gra-sub;
@@ -30,4 +30,14 @@ h6 {
   background: $linear-gra-sub;
   color: $white;
   font-size: 100px;
+  font-size: 1.5rem;
+}
+
+.btn1 {
+  @include commonBtn;
+  @include btnPrimary;
+}
+.btn2 {
+  @include commonBtn;
+  @include btnStrong;
 }
