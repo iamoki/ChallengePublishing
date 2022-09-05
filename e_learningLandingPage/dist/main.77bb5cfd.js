@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../assets/fonts/icomoon.eot":[["icomoon.592762f7.eot","assets/fonts/icomoon.eot"],"assets/fonts/icomoon.eot"],"./../assets/fonts/icomoon.ttf":[["icomoon.31a6ec37.ttf","assets/fonts/icomoon.ttf"],"assets/fonts/icomoon.ttf"],"./../assets/fonts/icomoon.woff":[["icomoon.4d39a651.woff","assets/fonts/icomoon.woff"],"assets/fonts/icomoon.woff"],"./../assets/fonts/icomoon.svg":[["icomoon.e5b6a6c2.svg","assets/fonts/icomoon.svg"],"assets/fonts/icomoon.svg"],"_css_loader":"../../../../.nvm/versions/node/v16.13.1/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../.nvm/versions/node/v16.13.1/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v16.13.1/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../.nvm/versions/node/v16.13.1/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49508" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51239" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

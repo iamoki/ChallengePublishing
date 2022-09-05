@@ -1,3 +1,123 @@
 @import "reset.scss";
 @import "common.scss";
-@import "iconFonts.scss";
+// @import "iconFonts.scss";
+
+.inner {
+  width: 1110px;
+  padding: 0 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+// HEADER
+header {
+  padding-top: 24px;
+  & > div {
+    @include flex($jc: space-between);
+  }
+  button {
+    @include commonBtn;
+    @include btnPrimary;
+  }
+}
+
+// MAIN
+.main {
+  margin-bottom: 46px;
+  height: 724px;
+  & > div {
+    @include flex($jc:space-between);
+    height: 100%;
+    & > div {
+      width: calc(50% - 81px);
+    }
+  }
+  .left-side {
+    h2 {
+      @include headingXL;
+      margin-bottom: 29px;
+    }
+    p {
+      @include bodyM;
+      margin-bottom: 40px;
+    }
+    button {
+      @include commonBtn;
+      @include btnStrong;
+    }
+  }
+  .right-side {
+    position: relative;
+    height: 100%;
+    .img-box {
+      // position: absolute;
+      // top: 0;
+      // right: 0;
+      // background-image: url('../assets/image-hero-desktop.png');
+      // background-repeat: no-repeat;
+      // background-position: center;
+      // width: 400px;
+      // height: 30vw;
+    }
+  }
+}
+
+// CARDS
+.cards-info {
+  padding-bottom: 140px;
+  & > div {
+    @include flex($jc:space-between, $ai:flex-end);
+    flex-wrap: wrap;
+    & > div {
+      width: calc((100% / 3) - 20px);
+      height: 322px;
+      padding: 64px 32px 40px;
+      box-sizing: border-box;
+      border-radius: 15px;
+      &:nth-child(n+4) {
+        margin-top: 80px;
+      }
+    }
+    .desc-card {
+      @include headingM($color: $white);
+      background: $linear-gra-main;
+    }
+    .contents-card {
+      position: relative;
+      @include flex($fd:column, $ai:flex-start, $jc:space-between);
+      box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+      .icon {
+        position: absolute;
+        top: -24px;
+      }
+      h4 {
+        @include headingS;
+        margin-bottom: 24px;
+      }
+      p {
+        @include bodyM;
+        margin-bottom: 24px;
+      }
+      button {
+        background: none;
+        border: none;
+        padding: 0;
+        font-size: 18px;
+        line-height: 1.26;
+        color: $pink;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: $main;
+  & > div {
+    @include flex($jc: space-between);
+    height: 120px;
+  }
+  button {
+    @include commonBtn;
+    @include btnStrong($bgColor: $linear-gra-sub);
+  }
+}

@@ -60,6 +60,14 @@ $white: #ffffff;
 $linear-gra-main: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
 $linear-gra-sub: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
 
+// layout
+@mixin flex($jc: center, $ai: center, $fd: row) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+  flex-direction: $fd;
+}
+
 // BtnStyle
 @mixin commonBtn {
   font-size: 1.125rem;
@@ -68,7 +76,6 @@ $linear-gra-sub: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
   outline: none;
   color: $white;
 }
-
 
 @mixin btnPrimary($bgColor: $main, $color: $white, $hoverColor: $main-hover) {
   padding: 0.875rem 1.93rem;
